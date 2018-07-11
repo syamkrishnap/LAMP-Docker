@@ -1,7 +1,7 @@
  <?php
 $servername = "172.18.0.2";
-$username = "email";
-$password = "inapp";
+$username = "emailuser";
+$password = "emailpwd";
 
 
 // Create connection

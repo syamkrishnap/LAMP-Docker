@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect("172.18.0.2", "email", "email"); // Establishing Connection with Server
+$connection = mysqli_connect("172.18.0.2", "emailuser", "emailpwd"); // Establishing Connection with Server
 $db = mysqli_select_db($connection, "email"); // Selecting Database from Server
 if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
 print_r($from = $_POST['from']);

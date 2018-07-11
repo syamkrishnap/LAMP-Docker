@@ -3,7 +3,7 @@
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
 
-$link = mysqli_connect("172.18.0.2", "email", "email", "email");
+$link = mysqli_connect("172.18.0.2", "emailuser", "emailpwd", "email");
 
 // Check connection
 
